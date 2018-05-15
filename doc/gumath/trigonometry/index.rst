@@ -16,7 +16,7 @@ Trigonometric sine, element-wise.
 :returns: `(array_like)` The sine of each element of x.
 
 Example
-^^^^^^^
+"""""""
 
 .. doctest::
 
@@ -37,7 +37,7 @@ Trigonometric cosine, element-wise.
 :returns: `(array_like)` The cosine of each element of x.
 
 Example
-^^^^^^^
+"""""""
 
 .. doctest::
 
