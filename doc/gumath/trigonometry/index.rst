@@ -46,3 +46,7 @@ Example
    >>> x = [0.0, 45 * 3.14159/180, 90 * 3.14159/180]
    >>> gm.cos(xnd(x))
    xnd([1.0, 0.70710, 6.12323e-17], type='3 * float64')
+
+.. math::
+
+    n_{\mathrm{offset}} = \sum_{k=0}^{N-1} s_k n_k
