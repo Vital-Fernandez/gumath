@@ -5,32 +5,15 @@
 
 .. sectionauthor:: Vital Fernandez <vital-fernandez at gmail.com>
 
-.. _sin-reference-label:
+.. _sin:
 sin
 ===
 
-Trigonometric sine, element-wise. See :ref:`sin-reference-label`.
+Trigonometric sine, element-wise. See :ref:`sine function <sin>`.
 
-:param x: Array like
+:param x: `(array_like)` Angle, in radians (2*pi rad equals 360 degrees).
 
-:returns: Angle in radians (2*pi rad equals 360 degrees)
-
-Parameters
-----------
-
-Atributes
-^^^^^^^^^
-
-x: array_like
-Angle, in radians (2*pi rad equals 360 degrees).
-
-Returns
-^^^^^^^
-
-y: array_like
-The sine of each element of x.
-
-returns: array:like
+:returns: `(array_like)` The sine of each element of x.
 
 Example
 -------
@@ -43,27 +26,15 @@ Example
    >>> gm.sin(xnd(x))
    xnd([0.0, 0.70710, 0.99999], type='3 * float64')
 
+.. _cos:
 cos
 ===
 
 Trigonometric cosine, element-wise.
 
-Parameters
-----------
+:param x: `(array_like)` Angle, in radians (2*pi rad equals 360 degrees).
 
-Atributes
-^^^^^^^^^
-
-x: array_like
-Angle, in radians (2*pi rad equals 360 degrees).
-
-Returns
-^^^^^^^
-
-y: array_like
-The cosine of each element of x.
-
-returns: array:like
+:returns: `(array_like)` The cosine of each element of x.
 
 Example
 -------
