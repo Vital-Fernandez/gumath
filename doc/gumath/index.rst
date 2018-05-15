@@ -9,7 +9,7 @@
 Mathematical operations
 =======================
 
-The gumath functions provide a python wrapper for the libgumath library. The operations currently available are :ref:`sine <sin>` and cosine.
+The gumath functions provide a python wrapper for the libgumath library. The operations currently available are :ref:`sine <sin>` and :ref:`cosine <cos>`.
 
 Trigonometry functions
 ----------------------

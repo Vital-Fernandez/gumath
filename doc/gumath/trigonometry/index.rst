@@ -9,14 +9,14 @@
 sin
 ===
 
-Trigonometric sine, element-wise. See :ref:`sine function <sin>`.
+Trigonometric sine, element-wise.
 
-:param x: `(array_like)` Angle, in radians (2*pi rad equals 360 degrees).
+:param x: `(array_like)` Angle, in radians (:math:`2\pi` rad equals 360 degrees).
 
 :returns: `(array_like)` The sine of each element of x.
 
 Example
--------
+^^^^^^^
 
 .. doctest::
 
@@ -37,7 +37,7 @@ Trigonometric cosine, element-wise.
 :returns: `(array_like)` The cosine of each element of x.
 
 Example
--------
+^^^^^^^
 
 .. doctest::
 
