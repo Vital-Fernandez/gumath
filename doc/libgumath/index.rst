@@ -15,7 +15,7 @@ This initial libgumath version displays a simple design. The goal is
 to determine whether the kernel signatures and the dispatch model are suitable
 for Numba.
 
-Currently there is just one working test with sin().
+Currently the only functions available are sine and cosine.
 
 .. toctree::
 
