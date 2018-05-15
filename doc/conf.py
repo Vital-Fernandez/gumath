@@ -1,7 +1,7 @@
 import sys, os, docutils
 
 
-extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.doctest']
+extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.doctest', 'sphinx.ext.mathjax']
 
 source_suffix = '.rst'
 master_doc = 'index'
