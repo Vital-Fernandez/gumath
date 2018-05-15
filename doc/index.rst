@@ -15,22 +15,19 @@ structure or a Numpy-like container with a composable, generalized function conc
 Installation
 ============
 
-To run gumathn `xnd`_ and `ndtypes`_, your computer requires a Python interpreters, either version 2.7 or superior.
+To run gumathn `xnd <http://xnd.readthedocs.io>`_ and `ndtypes <http://ndtypes.readthedocs.io>`_, your computer requires
+a Python interpreters, either version 2.7 or superior.
 
-gumath can be installed using `pip`_::
+gumath can be installed using `pip <http://pypi.python.org/pypi/pip>`_:
 
   python3 -m pip install gumath
 
-Or using `anaconda`_ package manager::
+Or using `anaconda <https://www.anaconda.com/download/#linux>`_ package manager:
 
   conda install -c xnd/label/dev gumath
 
 gumath does not depend on third-party Python except for `xnd`_ and `ndtypes`_ (currently, these packages do not have any
 external dependensives themselves).
-
-.. _xnd: https://github.com/plures/xnd
-.. _ndtypes: https://github.com/plures/ndtypes
-.. _pip: https://pip.pypa.io/en/latest/installing
 
 Index
 =====
